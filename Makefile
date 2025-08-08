@@ -3,7 +3,7 @@ CFLAGS = -Wall -Wextra -std=c99
 DEPS = chunk.h common.h
 
 # If you add more source files, add them to SRCS
-SRCS = main.c
+SRCS = main.c chunk.c debug.c memory.c
 OBJS = $(SRCS:.c=.o)
 TARGET = main
 
